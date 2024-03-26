@@ -15,7 +15,7 @@ const = logCalc () => {
     calculated === calculatedAsNumber + 1 
 }
 
-const = calcUser () => {
+const calc01= calcUser () => {
   logCalc
   if (calculated > 2) user = 'John'
   if (calculated > 2) state = 'requesting'
