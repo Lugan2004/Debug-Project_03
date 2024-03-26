@@ -7,6 +7,7 @@ let calculated = '1'
 // 1. Fix the logCalc function to correctly increment the value of calculated.
 // 2. Ensure that the value is only logged to the console once after all calculations.
 // 3. Call logCalc function to calculate the value of calculated.
+// comment
 
 
 // const = logCalc () => { 
