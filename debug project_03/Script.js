@@ -9,25 +9,12 @@ let calculated = '1'
 // 3. Call logCalc function to calculate the value of calculated.
 // comment
 
-
-// const = logCalc () => { 
-//     const isString = typeof calculated = 'numerical-string' 
-//     const calculatedAsNumber = isString ? calculated : parseNumber(calculated)
-//     calculated === calculatedAsNumber + 1 
-// }
 const logCalc = () => { 
   const isString = typeof calculated === 'string' && !isNaN(calculated)
   const calculatedAsNumber = isString ? parseInt(calculated) : calculated
   calculated = calculatedAsNumber + 1 
   console.log(`Calculated: ${calculated}`)
 }
-
-// const calcUser= calcUser () => {
-//   logCalc()
-//   if (calculated > 2) user = 'John'
-//   if (calculated > 2) state = 'requesting'
-//   if (calculated > 3) state = 'idle'
-// }
 
 const calcUser = () => {
 
@@ -38,11 +25,6 @@ const calcUser = () => {
   if (calculated > 3) state = 'idle'
 }
 
-// const = checkUser () => {
-// 	if (user && state === 'requesting') {
-// 		console.log(`User: ${user} (${calculated})`)
-// 	}
-// }
 const checkUser = () => {
   if (user && state === 'requesting') {
       console.log(`User: ${user} (${calculated})`)
