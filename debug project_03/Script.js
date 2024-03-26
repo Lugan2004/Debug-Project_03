@@ -3,6 +3,10 @@ let user = null
 let calculated = '1'
 
 // Only allowed to change below
+// To-do list below
+// 1. Fix the logCalc function to correctly increment the value of calculated.
+// 2. Ensure that the value is only logged to the console once after all calculations.
+// 3. Call logCalc function to calculate the value of calculated.
 
 
 const = logCalc () => { 
